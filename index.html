@@ -1,0 +1,490 @@
+
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Yamaha Guitar Store</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <i class="bi bi-music-note-beamed"></i>
+          Yamaha Guitar Store
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+          aria-controls="navbarMenu"
+          aria-expanded="false"
+          aria-label="Buka navigasi"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <div class="navbar-nav ms-auto align-items-lg-center">
+            <a class="nav-link" href="#beranda">Beranda</a>
+            <a class="nav-link" href="#produk">Produk</a>
+            <a class="nav-link" href="#kategori">Kategori</a>
+            <a class="nav-link" href="#gear">Gear</a>
+            <a class="nav-link" href="#promo">Promo</a>
+          </div>
+
+          <div class="search-box ms-lg-3">
+            <input
+              type="text"
+              id="searchInput"
+              class="form-control"
+              placeholder="Cari gitar Yamaha..."
+              aria-label="Cari produk"
+            />
+          </div>
+
+          <a
+            class="cart ms-lg-3"
+            href="#produk"
+            aria-label="Keranjang belanja"
+          >
+            <i class="bi bi-cart3"></i>
+            <span class="cart-number">0</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CONTENT 1 - HERO -->
+    <section id="beranda" class="hero">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <span class="badge mb-3">YAMAHA OFFICIAL COLLECTION</span>
+
+            <h1>
+              Temukan Gitar
+              <span>Yamaha</span>
+              Impianmu
+            </h1>
+
+            <p>
+              Koleksi gitar Yamaha berkualitas dengan desain klasik, suara
+              yang indah, dan cocok untuk berbagai kebutuhan musik.
+            </p>
+
+            <a href="#produk" class="btn btn-warning">
+              Belanja Sekarang
+            </a>
+          </div>
+
+          <div class="col-lg-6">
+            <img
+              src="https://id.yamaha.com/id/files/product_banner_TYPE_E_tcm141-2138037.jpg?impolicy=resize&imwid=735&imhei=367"
+              class="hero-img"
+              alt="Koleksi gitar Yamaha"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENT 2 - KATEGORI -->
+    <section id="kategori" class="category-section py-5">
+      <div class="container">
+        <div class="section-title">
+          <h2>Kategori Gitar</h2>
+          <p>Pilih jenis gitar Yamaha sesuai kebutuhanmu</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="category-card">
+              <i class="bi bi-music-note"></i>
+              <h5>Acoustic</h5>
+              <p>Gitar akustik Yamaha dengan suara natural.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="category-card">
+              <i class="bi bi-lightning"></i>
+              <h5>Electric</h5>
+              <p>Gitar elektrik untuk berbagai genre musik.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="category-card">
+              <i class="bi bi-speaker"></i>
+              <h5>Electro Acoustic</h5>
+              <p>Gitar akustik dengan fitur elektronik.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="category-card">
+              <i class="bi bi-star"></i>
+              <h5>Premium</h5>
+              <p>Koleksi Yamaha kelas premium.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENT 3 - PRODUK -->
+    <section id="produk" class="products py-5">
+      <div class="container">
+        <div class="section-title">
+          <h2>Produk Pilihan</h2>
+          <p>Koleksi gitar Yamaha terpopuler</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- PRODUK 1 -->
+          <div class="col-md-6 col-lg-3 product-item">
+            <div class="product-card">
+              <div class="product-image">
+                <span class="discount">-10%</span>
+                <img
+                  src="https://images.unsplash.com/photo-1550291652-6ea9114a47b1"
+                  alt="Yamaha F310"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <h5>Yamaha F310</h5>
+                <div class="rating">★★★★★ <small>(128)</small></div>
+                <div class="old-price">Rp2.300.000</div>
+                <div class="price">Rp2.070.000</div>
+
+                <div class="stock mb-3">
+                  <i class="bi bi-check-circle"></i>
+                  Stok tersedia
+                </div>
+
+                <button type="button" class="btn btn-warning w-100 add-cart">
+                  <i class="bi bi-cart-plus"></i>
+                  Tambah ke Keranjang
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUK 2 -->
+          <div class="col-md-6 col-lg-3 product-item">
+            <div class="product-card">
+              <div class="product-image">
+                <span class="discount">-8%</span>
+                <img
+                  src="https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02"
+                  alt="Yamaha F370"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <h5>Yamaha F370</h5>
+                <div class="rating">★★★★★ <small>(96)</small></div>
+                <div class="old-price">Rp2.800.000</div>
+                <div class="price">Rp2.576.000</div>
+
+                <div class="stock mb-3">
+                  <i class="bi bi-check-circle"></i>
+                  Stok tersedia
+                </div>
+
+                <button type="button" class="btn btn-warning w-100 add-cart">
+                  <i class="bi bi-cart-plus"></i>
+                  Tambah ke Keranjang
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUK 3 -->
+          <div class="col-md-6 col-lg-3 product-item">
+            <div class="product-card">
+              <div class="product-image">
+                <span class="discount">-12%</span>
+                <img
+                  src="https://images.unsplash.com/photo-1525201548942-d8732f6617a0"
+                  alt="Yamaha APX600"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <h5>Yamaha APX600</h5>
+                <div class="rating">★★★★★ <small>(214)</small></div>
+                <div class="old-price">Rp4.500.000</div>
+                <div class="price">Rp3.960.000</div>
+
+                <div class="stock mb-3">
+                  <i class="bi bi-check-circle"></i>
+                  Stok tersedia
+                </div>
+
+                <button type="button" class="btn btn-warning w-100 add-cart">
+                  <i class="bi bi-cart-plus"></i>
+                  Tambah ke Keranjang
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRODUK 4 -->
+          <div class="col-md-6 col-lg-3 product-item">
+            <div class="product-card">
+              <div class="product-image">
+                <span class="discount">-5%</span>
+                <img
+                  src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1"
+                  alt="Yamaha FG800"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="card-body">
+                <h5>Yamaha FG800</h5>
+                <div class="rating">★★★★★ <small>(173)</small></div>
+                <div class="old-price">Rp4.000.000</div>
+                <div class="price">Rp3.800.000</div>
+
+                <div class="stock mb-3">
+                  <i class="bi bi-check-circle"></i>
+                  Stok tersedia
+                </div>
+
+                <button type="button" class="btn btn-warning w-100 add-cart">
+                  <i class="bi bi-cart-plus"></i>
+                  Tambah ke Keranjang
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENT 4 - GEAR / AKSESORIS -->
+    <section id="gear" class="gear py-5">
+      <div class="container">
+        <div class="section-title">
+          <h2>Gear & Aksesoris</h2>
+          <p>Lengkapi kebutuhan bermain gitarmu</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- GEAR 1 - PICK GITAR -->
+          <div class="col-md-6 col-lg-3 gear-item">
+            <div class="gear-card">
+              <div class="gear-image">
+                <img
+                  src="https://www.bonnersmusic.co.uk/cdn/shop/products/APRM6-1002.jpg?v=1703749560"
+                  alt="Pick gitar"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="gear-body">
+                <h5>Pick Gitar</h5>
+                <p>Pick untuk membantu permainan gitar lebih nyaman.</p>
+                <div class="gear-price">Rp15.000</div>
+
+                <button type="button" class="btn btn-warning w-100 add-cart">
+                  <i class="bi bi-cart-plus"></i>
+                  Tambah ke Keranjang
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- GEAR 2 - SENAR GITAR -->
+          <div class="col-md-6 col-lg-3 gear-item">
+            <div class="gear-card">
+              <div class="gear-image">
+                <img
+                  src="https://www.martinguitar.com/on/demandware.static/-/Sites-martin-master-catalog/default/dwef4e5abe/images/strings/SP/MA180-front.jpg"
+                  alt="Kemasan senar gitar"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="gear-body">
+                <h5>Senar Gitar</h5>
+                <p>Senar pengganti untuk kebutuhan bermain gitar.</p>
+                <div class="gear-price">Rp85.000</div>
+
+                <button type="button" class="btn btn-warning w-100 add-cart">
+                  <i class="bi bi-cart-plus"></i>
+                  Tambah ke Keranjang
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- GEAR 3 - STRAP GITAR -->
+          <div class="col-md-6 col-lg-3 gear-item">
+            <div class="gear-card">
+              <div class="gear-image">
+                <img
+                  src="https://andreassonmusik.se/content/images/thumbs/0026222_ernie-ball-4037-black-polypro-guitar-strap.png"
+                  alt="Strap gitar hitam"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="gear-body">
+                <h5>Strap Gitar</h5>
+                <p>Tali gitar untuk membantu bermain dengan nyaman.</p>
+                <div class="gear-price">Rp65.000</div>
+
+                <button type="button" class="btn btn-warning w-100 add-cart">
+                  <i class="bi bi-cart-plus"></i>
+                  Tambah ke Keranjang
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- GEAR 4 - TUNER GITAR -->
+          <div class="col-md-6 col-lg-3 gear-item">
+            <div class="gear-card">
+              <div class="gear-image">
+                <img
+                  src="https://th-test-11.slatic.net/p/8cdaa984463ad8619c8eb54daf3eb376.jpg"
+                  alt="Tuner gitar digital"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="gear-body">
+                <h5>Tuner Gitar</h5>
+                <p>Alat bantu untuk menyetel nada gitar.</p>
+                <div class="gear-price">Rp120.000</div>
+
+                <button type="button" class="btn btn-warning w-100 add-cart">
+                  <i class="bi bi-cart-plus"></i>
+                  Tambah ke Keranjang
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENT 5 - PROMO -->
+    <section id="promo" class="promo-section py-5">
+      <div class="container">
+        <div class="promo text-center">
+          <h2>Promo Spesial Yamaha</h2>
+          <p>
+            Dapatkan berbagai pilihan gitar Yamaha dengan harga spesial hingga
+            30% OFF.
+          </p>
+          <a href="#produk" class="btn btn-warning">Lihat Promo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <h5>Yamaha Guitar Store</h5>
+            <p>Dashboard toko gitar Yamaha dengan konsep vintage dan klasik.</p>
+          </div>
+
+          <div class="col-md-3">
+            <h5>Informasi Lokasi</h5>
+            <p>Beji, Depok, Indonesia</p>
+          </div>
+
+          <div class="col-md-3">
+            <h5>Kontak</h5>
+            <p>Email: info@yamahaguitar.com</p>
+            <p>Telp: 0856-9335-9622</p>
+          </div>
+        </div>
+
+        <hr />
+        <p class="text-center mb-0">© 2026 Yamaha Guitar Store</p>
+      </div>
+    </footer>
+
+    <!-- NOTIFIKASI KERANJANG -->
+    <div
+      id="cartMessage"
+      class="cart-message"
+      role="status"
+      aria-live="polite"
+    ></div>
+
+    <!-- JAVASCRIPT PENCARIAN DAN KERANJANG -->
+    <script>
+      const searchInput = document.getElementById("searchInput");
+      const cartNumber = document.querySelector(".cart-number");
+      const cartMessage = document.getElementById("cartMessage");
+
+      let cartCount = 0;
+
+      // Pencarian produk dan aksesoris
+      searchInput.addEventListener("input", function () {
+        const keyword = this.value.toLowerCase().trim();
+
+        document
+          .querySelectorAll(".product-item, .gear-item")
+          .forEach(function (item) {
+            const productName = item.innerText.toLowerCase();
+
+            item.style.display = productName.includes(keyword) ? "" : "none";
+          });
+      });
+
+      // Tombol tambah ke keranjang
+      document.querySelectorAll(".add-cart").forEach(function (button) {
+        button.addEventListener("click", function () {
+          cartCount++;
+          cartNumber.textContent = cartCount;
+
+          const productName = this.closest(
+            ".product-card, .gear-card"
+          ).querySelector("h5").textContent;
+
+          cartMessage.textContent =
+            productName + " ditambahkan ke keranjang.";
+
+          cartMessage.classList.add("show");
+
+          window.setTimeout(function () {
+            cartMessage.classList.remove("show");
+          }, 2200);
+        });
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
